@@ -1,0 +1,8 @@
+{
+  "name": "My first deploy",
+  "description": "My first chat app",
+  "repository": "https://github.com/georgianalin/my-first-deploy",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
