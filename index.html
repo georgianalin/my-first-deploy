@@ -1,7 +1,9 @@
 <!doctype html>
 <html>
 <head>
-    <title>Socket.IO chat</title>
+    <title>FB nou</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <style>
         * {
             margin: 0;
@@ -30,7 +32,7 @@
 
             form button {
                 width: 9%;
-                background: rgb(130, 224, 255);
+                /*background: rgb(130, 224, 255);*/
                 border: none;
                 padding: 10px;
             }
@@ -53,8 +55,11 @@
 <body>
     <ul id="messages"></ul>
     <form action="">
-        <input id="m" autocomplete="off" /><button>Send</button>
+        <input type="text" autocomplete="off" id="m" placeholder="Write your message here"><button class="btn btn-success">Send</button>
     </form>
+
+    <!--<script src="socket.io.js"></script>
+    <script src="jquery-3.1.0.js"></script>-->
     <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
     <script>
